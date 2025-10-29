@@ -1,5 +1,97 @@
 # 🧠 Theory of Computation – Mathematical Notations
 
+## 🎓 Greek Symbols
+
+### Most Common in TOC
+
+| Symbol | Name | Usage in TOC |
+|--------|------|--------------|
+| `Σ` | Sigma | Input alphabet (set of symbols) |
+| `σ` | sigma | A single symbol from alphabet |
+| `ε` | epsilon | Empty string (length 0) |
+| `λ` | lambda | Empty string (alternative) / Lambda calculus |
+| `δ` | delta | Transition function |
+| `Δ` | Delta | Set of transitions |
+| `Γ` | Gamma | Stack alphabet (in PDA) |
+| `γ` | gamma | Stack symbol |
+| `ω` | omega | String or word |
+| `Ω` | Omega | Asymptotic lower bound |
+| `Θ` | Theta | Asymptotic tight bound |
+| `α` | alpha | Generic variable/symbol |
+| `β` | beta | Generic variable/symbol |
+| `π` | pi | Projection, permutation |
+| `ρ` | rho | String, relation |
+| `τ` | tau | Time, transition |
+| `φ` / `ϕ` | phi | Function, empty set (alternative) |
+| `ψ` | psi | Function, predicate |
+| `μ` | mu | Minimal element |
+| `ν` | nu | Index variable |
+
+### Complete Greek Alphabet
+
+#### Lowercase Letters
+
+| Symbol | Name | Usage in TOC |
+|--------|------|--------------|
+| `α` | alpha | Variables, strings |
+| `β` | beta | Variables, strings |
+| `γ` | gamma | Stack symbols |
+| `δ` | delta | Transition function |
+| `ε` | epsilon | Empty string |
+| `ζ` | zeta | Rarely used |
+| `η` | eta | Efficiency |
+| `θ` | theta | Angles, tight bound |
+| `ι` | iota | Index |
+| `κ` | kappa | Rarely used |
+| `λ` | lambda | Empty string, lambda calculus |
+| `μ` | mu | Minimal |
+| `ν` | nu | Index |
+| `ξ` | xi | Random variable |
+| `ο` | omicron | Rarely used |
+| `π` | pi | Product, projection |
+| `ρ` | rho | Strings |
+| `σ` / `ς` | sigma | Symbol from alphabet |
+| `τ` | tau | Time |
+| `υ` | upsilon | Rarely used |
+| `φ` / `ϕ` | phi | Functions |
+| `χ` | chi | Rarely used |
+| `ψ` | psi | Functions |
+| `ω` | omega | Strings, words |
+
+#### Uppercase Letters
+
+| Symbol | Name | Usage in TOC |
+|--------|------|--------------|
+| `Γ` | Gamma | Stack alphabet |
+| `Δ` | Delta | Transition set, change |
+| `Θ` | Theta | Tight complexity bound |
+| `Λ` | Lambda | Set of strings |
+| `Π` | Pi | Product, projection |
+| `Σ` | Sigma | Input alphabet |
+| `Φ` | Phi | Functions, sets |
+| `Ψ` | Psi | Functions |
+| `Ω` | Omega | Lower complexity bound |
+
+### How to Read Common Expressions
+
+#### Automata Definition
+```
+M = (Q, Σ, δ, q₀, F)
+```
+**Read as:** "M equals Q, Sigma, delta, q-zero, F"
+
+#### Transition Function
+```
+δ: Q × Σ → Q
+```
+**Read as:** "delta from Q cross Sigma to Q"
+
+#### Language
+```
+L = {ω | ω ∈ Σ*}
+```
+**Read as:** "L equals all omega such that omega belongs to Sigma star"
+
 ## ⚙️ 1. SETS
 
 **Definition:** A set is a collection of distinct objects or elements.
