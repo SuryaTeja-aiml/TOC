@@ -1,4 +1,4 @@
-# 🧠 Theory of Computation – Mathematical Notations
+# 🧠 Theory of Computation
 
 ## 🔤 Basic Concepts
 
